@@ -1,0 +1,9 @@
+// Update Profile Image
+
+// Task 1: Create and endpoint “/profile” to receive Name, and filename from user , handle the endpoint to receive file and name from the user,
+
+// Task 2: store the file with name passed in request and extension will be with the same extension as original filename, in a folder named “files” in public folder.
+
+// Task 3: Make sure to check If the file with the name and extension already exists in the folder ignore the file upload.
+
+// Task 4: Create both endpoint logic and Html Page to submit data.

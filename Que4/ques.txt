@@ -1,0 +1,9 @@
+/ Delete Record
+
+// Task 1: Create an endpoint /deleteRecord/id, where id is dynamic data
+
+// Task 2: Consider a database with collection users with attributes as _id, name
+
+// Task 3: write the mongodb query in the endpoint to delete the record with id passed. Users collection have _id.
+
+// Task 4: the endpoint will return the json with attribute msg, if the document with the id passed exists and its deleted successfully return true, otherwise in any issue return false

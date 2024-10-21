@@ -1,0 +1,11 @@
+// Cart Update 
+
+// Complete the Story
+
+// Task 1: Create an Atlas mongodb database with collections products(name,img,price,description) and carts(productname,price,qty,netprice) add some dummy data to products and cart page
+
+// Task 2: Display the cart page as your home page
+
+// Task 3: In the cart Page add button remove to delete any product and + and - button to increase and decrease the quantity of the product
+
+// Task 4: Update the cart page on every update and display "Cart is empty" message if there are no items in the cart.

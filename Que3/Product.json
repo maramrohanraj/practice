@@ -1,0 +1,22 @@
+[
+  { "_id": 1, "name": "Laptop", "img": "laptop.jpg", "price": 1000, "id": 1 },
+  { "_id": 2, "name": "Phone", "img": "phone.jpg", "price": 500, "id": 2 },
+  {
+    "_id": 3,
+    "name": "Headphones",
+    "img": "headphones.jpg",
+    "price": 150,
+    "id": 3
+  },
+  {
+    "_id": 4,
+    "name": "Smartwatch",
+    "img": "smartwatch.jpg",
+    "price": 200,
+    "id": 4
+  },
+  { "_id": 5, "name": "Tablet", "img": "tablet.jpg", "price": 300, "id": 5 },
+  { "_id": 6, "name": "Keyboard", "img": "keyboard.jpg", "price": 50, "id": 6 },
+  { "_id": 7, "name": "Mouse", "img": "mouse.jpg", "price": 25, "id": 7 },
+  { "_id": 8, "name": "Monitor", "img": "monitor.jpg", "price": 200, "id": 8 }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+</head>
+<body>
+  <h1>Cart</h1>
+  <% if (cartItems.length === 0) { %>
+    <p>Cart is empty</p>
+  <% } else { %>
+    <ul>
+      <% cartItems.forEach(item => { %>
+        <li>
+          <%= item.productname %> - <%= item.price %> x <%= item.qty %> = <%= item.netprice %>
+          <form action="/cart/remove" method="POST" style="display:inline;">
+            <input type="hidden" name="productname" value="<%= item.productname %>">
+            <button type="submit">Remove</button>
+          </form>
+          <form action="/cart/update" method="POST" style="display:inline;">
+            <input type="hidden" name="productname" value="<%= item.productname %>">
+            <button type="submit" name="action" value="increase">+</button>
+            <button type="submit" name="action" value="decrease">-</button>
+          </form>
+        </li>
+      <% }) %>
+    </ul>
+  <% } %>
+</body>
+</html>

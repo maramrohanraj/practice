@@ -1,0 +1,13 @@
+Ecommerce Server Paging
+
+// Task 1: Create an Atlas mongodb database with collections products(_id,name,img,price,id) add some 8 records to products .
+
+// Task 2: Create a nodejs dynamic endpoint “/getProducts/from/to”. The endpoint will send the products from database as json with id specified in the endpoing, e.g.
+
+// /getproducts/1/4 will return products with id 1 to 4
+// /getproducts/5/8 will return products with id 5 to 8
+// Task 3: Create an html home page to hit the endpoint and receive the products json, display the received products on page with 2 products each row.
+
+// Task 3: Implement the server side paging to display only 4 records at a time, and add a Load more button
+
+// Task 4: on clicking load more button append the next 4 products to page and hide the load more button
